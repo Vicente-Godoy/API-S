@@ -1,4 +1,4 @@
-$("#enviar").click(function(){
+$("#Enviar").click(function(){
     $.get("https://www.themealdb.com/api/json/v1/1/categories.php",
     function(data){
         $.each(data.categories, function(i, item){
